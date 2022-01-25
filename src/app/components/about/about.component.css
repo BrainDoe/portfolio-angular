@@ -55,6 +55,7 @@
 
 .award-title {
   margin-bottom: 20px;
+  color: rgb(90, 79, 79);
 }
 
 .about-title {
@@ -63,7 +64,7 @@
 
 .about-sub {
   margin: 20px 0;
-}
+} 
 
 .about-desc {
   font-weight: 300;
