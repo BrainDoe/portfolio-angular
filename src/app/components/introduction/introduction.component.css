@@ -96,3 +96,43 @@
   right: 0;
 }
 
+
+@media (max-width: 480px) {
+  .intro {
+    flex-direction: column;
+  }
+
+  .intro-desc{
+    text-align: center;
+    /* display: none; */
+  }
+    
+  .intro-n {
+    font-size: 25px;
+    font-weight: 300;
+  }
+
+  .intro-name {
+    font-size: 40px;
+    margin: 10px 0;
+  }
+
+  .intro-right img {
+    width: 300px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: contain;
+    position: absolute;
+  }
+
+  .left-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    height: 100%;
+  }
+}
+

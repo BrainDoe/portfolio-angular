@@ -73,3 +73,26 @@
 .award-texts {
   width: 70%;
 }
+
+
+@media (max-width: 500px) {
+  .about {
+    flex-direction: column;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .about-left {
+    width: 100%;
+  }
+
+  .about-card {
+    height: 30vh;
+    width: 100%;
+  }
+
+  .about-card.bg {
+    display: none;
+  }
+
+}
